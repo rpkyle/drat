@@ -1,0 +1,34 @@
+Package: dash
+Version: 0.8.0
+Depends: R (>= 3.0.2)
+Imports: dashHtmlComponents (== 1.1.0), dashCoreComponents (== 1.11.0), dashTable (== 4.10.0), R6,
+           fiery (> 1.0.0), routr (> 0.2.0), plotly, reqres (>= 0.2.3), jsonlite, htmltools,
+           assertthat, digest, base64enc, mime, crayon, brotli
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: eb13dc969e399512b3a3c3a957f5d4e4
+NeedsCompilation: no
+
+Package: dashCoreComponents
+Version: 1.10.0
+Depends: R (>= 3.0.2)
+Suggests: dash, dashHtmlComponents, jsonlite, plotly, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 8a75550eaddc4e8ab5aea08b3548caec
+NeedsCompilation: no
+
+Package: dashHtmlComponents
+Version: 1.1.0
+Depends: R (>= 3.0.2)
+Suggests: dash, dashCoreComponents, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 44d2bd4014fb97d07c097a66eee681e5
+NeedsCompilation: no
+
+Package: dashTable
+Version: 4.10.0
+Depends: R (>= 3.0.2)
+Suggests: dash
+License: MIT + file LICENSE
+MD5sum: 97510fb40f951c6af2e06b2fe28e0e57
+NeedsCompilation: no
